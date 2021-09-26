@@ -1,0 +1,53 @@
+:root{
+    --primary-color: #60A5FA;
+    --secondary-color: white
+  }
+
+.container{
+    margin: auto;
+    text-align: center;
+    width: 60%;
+}
+
+h1{
+    text-align: center;
+}
+
+.footer-container{
+    list-style: none;
+    text-align: center;
+    background-color: black;
+    padding: 2rem;
+
+}
+
+.footer-list{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.lists-inline{
+    display: inline;
+    padding: 1rem;
+}
+
+.links{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+label {
+    display: block;
+    margin-top: 2rem;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+  
+button {
+    margin: 1rem 0rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 15px;
+    background-color: var(--primary-color);
+    color: white;
+}
